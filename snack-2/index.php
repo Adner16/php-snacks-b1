@@ -40,8 +40,8 @@ $posts = [
     ],
 ];
 
-for ($i= 0; $i <= count($post); $i++){
-    echo($i && $i['text']);
+for ($i = 0; $i <= count($post); $i++){
+    
 }
 
 ?>
