@@ -40,8 +40,19 @@ $posts = [
     ],
 ];
 
-for ($i = 0; $i <= count($post); $i++){
-    
+$keys = array_keys($posts);
+
+
+for($keys as $key){
+    $current = $posts[$key];
+
+    foreach($current as $post){
+        echo $post['title'] . '<br>' ;
+        echo $post['author'] . '<br>' ;
+        echo $post['text'] . '<br>' ;
+
+    }
+
 }
 
 ?>
